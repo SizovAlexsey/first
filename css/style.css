@@ -1,0 +1,308 @@
+body {
+    background-color: #0F0F0F;
+    margin: 0;
+    padding: 0;
+}
+header {
+    background-image:url(https://media.discordapp.net/attachments/697749103701917727/971876114442100876/unknown.png?width=958&height=676) ;
+    width: 100%;
+    height: 1355px;
+    margin: 0;
+    background-size: cover;
+    
+}
+.main__header {
+    display: flex ;
+    flex-direction: column;
+    align-items:center;
+}
+.lec {
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    width: 841px;
+    height: 1120px;
+
+}
+.photo {
+    z-index: 2;
+    position: absolute;
+}
+img {
+    width: 841px;
+    height: 1120px;
+    object-fit: cover;
+    object-position: top;
+}
+p ,b {
+    position: absolute;
+    top: 0;
+    margin-left: 390px;
+}
+p { 
+    margin-right: 30px;
+    top: 110px;
+    width: 900px;
+    height: 21px;
+    font-family: 'Muller';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    letter-spacing: 1em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+b {
+    width: 1450px;
+    height: 240px;
+    top: 130px;
+    margin-left: 230px;
+    font-family: 'Poplar Std';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 150px;
+    line-height: 240px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+.button {
+    margin-top: -150px ;
+    padding: 20px;
+    border: 1px solid #FFFFFF;
+    font-family: 'Square721 BdEx BT Cyr';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 19px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    z-index: 3;
+}
+.kategorii {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+.beste , .collec {
+    width: 1400px;
+
+}
+.beste {
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-left: 0px;
+    border-right: 0px;
+    border-bottom: 0px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 48px;
+    text-transform: uppercase;
+    color: #2D2D2D;
+    margin-top: 100px;
+    font-family: 'Square721 BdEx BT Cyr';
+}
+.collec {
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-left: 0px;
+    border-right: 0px;
+    margin-top: -2px;
+    font-family: 'Square721 BdEx BT Cyr';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 48px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+.tovari {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    align-items: center;
+    z-index: 1;
+    margin-top: 100px;
+    width: 100%;
+    height: 1300px;
+    color: black;
+}
+.container1 {
+    display: flex ;
+    flex-direction: row;
+}
+.tovar_one {
+    position: absolute;
+    width: 164px;
+    height: 185px;
+    margin-top: 130px;
+    margin-left:70px;
+    z-index: 4;
+    background-size: cover ;
+    background-image:url(https://media.discordapp.net/attachments/697749103701917727/972217613902053476/unknown.png);
+}
+.tovar_one_two {
+    position: absolute;
+    width: 174px;
+    height: 201px;
+    margin-top: 60px;
+    margin-left:140px;
+    background-size: cover ;
+    z-index: 3;
+    background-image:url(https://sun9-22.userapi.com/s/v1/ig2/bqKOH1iel-vrAhx7oCnZeIlSvHNNPT-UNG7-FeVO1uufcZvudu90MmyQKq6a_b69Mky31UOwxRyRnp7r4vl9BC02.jpg?size=348x402&quality=96&type=album);
+}
+.item1 {
+    border: 2px solid black;
+    background-image: url(https://sun9-26.userapi.com/s/v1/ig2/Fz3XWlQuHeDml-NL-9LGbMm_qfk2AGdwpdNB3ljqYwJaeQRQSqyBhy_f_WrfsP4OccOqXrONhg2jwg63moNMuSjY.jpg?size=740x1086&quality=96&type=album);
+    width:400px;
+    height:500px;
+}
+.tovar_two {
+    position: absolute;
+    width: 192px;
+    height: 192px;
+    margin-top: 100px;
+    margin-left:100px;
+    background-size: cover ;
+    z-index: 3;
+    background-image:url(https://sun9-39.userapi.com/s/v1/ig2/8vPjyPee8dm62TzXG7rcxja0WKoeEW_iMfBh6KTTIGuhLVwF1ACRylsyTwtp638zS-Ic9NZwCYGQoboaSFAFn0Fz.jpg?size=192x192&quality=96&type=album);
+}
+.item2 {
+    margin-left: 100px;
+    background-image: url(https://sun9-26.userapi.com/s/v1/ig2/Fz3XWlQuHeDml-NL-9LGbMm_qfk2AGdwpdNB3ljqYwJaeQRQSqyBhy_f_WrfsP4OccOqXrONhg2jwg63moNMuSjY.jpg?size=740x1086&quality=96&type=album);
+    width:400px;
+    height:500px;
+}
+.tovar_three {
+    position: absolute;
+    width: 192px;
+    height: 192px;
+    margin-top: 100px;
+    margin-left:100px;
+    background-size: cover ;
+    z-index: 3;
+    background-image:url(https://sun2.megafon-nn.userapi.com/s/v1/ig2/Q2TgFcC8y6VAPVryrIsaE0ciKQh4jc5LVMOQlPdQVUT3r3EyI_nDNoKwruoONVh0CrMoJVOscax74VdTGkXJry6i.jpg?size=218x218&quality=96&type=album);
+
+}
+.item3 {
+    background-image: url(https://sun9-26.userapi.com/s/v1/ig2/Fz3XWlQuHeDml-NL-9LGbMm_qfk2AGdwpdNB3ljqYwJaeQRQSqyBhy_f_WrfsP4OccOqXrONhg2jwg63moNMuSjY.jpg?size=740x1086&quality=96&type=album);
+    width:400px;
+    height:500px;
+    margin-left: 100px;
+}
+.container2 {
+    margin-top:100px;
+    display: flex ;
+    flex-direction: row;
+}
+.tovar_four {
+    position: absolute;
+    width: 164px;
+    height: 185px;
+    margin-top: 130px;
+    margin-left:70px;
+    z-index: 4;
+    background-size: cover ;
+    background-image:url(https://media.discordapp.net/attachments/697749103701917727/972217613902053476/unknown.png);
+}
+.tovar_four_two {
+    position: absolute;
+    width: 208.25px;
+    height: 208.25px;
+    margin-top: 60px;
+    margin-left:120px;
+    background-size: cover ;
+    z-index: 3;
+    background-image:url(https://sun9-18.userapi.com/s/v1/ig2/ClsdmawbwVh3b72NwpG_AzD8M0mzgWdprLIkumwgy5-CV3zdIR69s7xrUe3Ww3xcG64PZgBh9raEgWQu3cqcUIfW.jpg?size=418x418&quality=96&type=album);
+}
+.item4 {
+    background-image: url(https://sun9-26.userapi.com/s/v1/ig2/Fz3XWlQuHeDml-NL-9LGbMm_qfk2AGdwpdNB3ljqYwJaeQRQSqyBhy_f_WrfsP4OccOqXrONhg2jwg63moNMuSjY.jpg?size=740x1086&quality=96&type=album);
+    width:400px;
+    height:500px;
+    
+}
+.tovar_five {
+    position: absolute;
+    width: 192px;
+    height: 192px;
+    margin-top: 100px;
+    margin-left:100px;
+    background-size: cover ;
+    z-index: 3;
+    background-image:url(https://sun9-39.userapi.com/s/v1/ig2/8vPjyPee8dm62TzXG7rcxja0WKoeEW_iMfBh6KTTIGuhLVwF1ACRylsyTwtp638zS-Ic9NZwCYGQoboaSFAFn0Fz.jpg?size=192x192&quality=96&type=album);
+
+}
+.item5 {
+    background-image: url(https://sun9-26.userapi.com/s/v1/ig2/Fz3XWlQuHeDml-NL-9LGbMm_qfk2AGdwpdNB3ljqYwJaeQRQSqyBhy_f_WrfsP4OccOqXrONhg2jwg63moNMuSjY.jpg?size=740x1086&quality=96&type=album);
+    width:400px;
+    height:500px;
+    margin-left: 100px;
+}
+.tovar_six {
+    position: absolute;
+    width: 192px;
+    height: 192px;
+    margin-top: 100px;
+    margin-left:80px;
+    background-size: cover ;
+    z-index: 3;
+    background-image:url(https://sun9-87.userapi.com/s/v1/ig2/Q2TgFcC8y6VAPVryrIsaE0ciKQh4jc5LVMOQlPdQVUT3r3EyI_nDNoKwruoONVh0CrMoJVOscax74VdTGkXJry6i.jpg?size=218x218&quality=96&type=album);
+}
+.item6 {
+    background-image: url(https://sun9-26.userapi.com/s/v1/ig2/Fz3XWlQuHeDml-NL-9LGbMm_qfk2AGdwpdNB3ljqYwJaeQRQSqyBhy_f_WrfsP4OccOqXrONhg2jwg63moNMuSjY.jpg?size=740x1086&quality=96&type=album);
+    width:400px;
+    height:500px;
+    margin-left: 100px;
+}
+.futbolka { 
+    margin-left:30px;
+    margin-top: 400px;
+    font-family: 'Muller';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 18px;
+    text-transform: uppercase;
+    color: #131313;
+
+}
+.price {
+    margin-top:2px;
+    padding-top: 20px ;
+    padding-bottom: 27px;
+    padding-left: 67.5px;
+    padding-right:57.5px;
+    border: 1px solid #C7C7C7;
+    border-bottom:0px ;
+    border-left:0px ;
+    position: absolute;
+    font-family: 'Square721 BdEx BT Cyr';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 17px;
+    text-align: center;
+    color: #545454;
+
+}
+.kupit {
+    margin-top:2px;
+    padding-top: 20px ;
+    padding-bottom: 27px;
+    border: 1px solid #C7C7C7;
+    border-bottom:0px ;
+    border-right:0px ;
+    margin-left: 197px;
+    padding-left:47.5px;
+    padding-right:68px;
+    position: absolute;
+    font-family: 'Square721 BdEx BT Cyr';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 17px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #545454;
+}
